@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Foodify</string>
+    <string name="tv_main">Explore recipes with amazing features, this will be your perfect cooking companion.</string>
+    <string name="scan_cook">Scan &amp; Cook</string>
+    <string name="slider_1">Use camera to find recipe &amp; preparation step that inspire you</string>
+
+    //OTP
+    <string name="otp_verification">OTP Verification</string>
+    <string name="otp_code">Code</string>
+    <string name="otp_descriptionTxt">Please Enter the OTP sent to you</string>
+    <string name="otp_resend">Did not receive the Otp</string>
+    <string name="otp_resendAgain">RESEND OTP AGAIN</string>
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFEFE"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:text="Create Account"
+                    android:textColor="@color/colorButton"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <EditText
+                    android:id="@+id/eTuserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/backgroundeditview"
+                    android:ems="10"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:hint="User Name"
+                    android:drawableLeft="@drawable/ic_baseline_username_24"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/eTphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/backgroundeditview"
+                    android:ems="10"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:hint="+92 3041234567"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_phone_24"
+                    />
+
+                <EditText
+                    android:id="@+id/eTemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/backgroundeditview"
+                    android:ems="10"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:hint="abc@gmail.com"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    />
+
+                <EditText
+                    android:id="@+id/eTpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgroundeditview"
+                    android:ems="10"
+                    android:gravity="clip_horizontal|center|clip_vertical"
+                    android:hint="password(e.g:Abc1234)"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    />
+                <TextView
+                    android:id="@+id/tv_passStat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textColor="@color/colorButton"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_gradient"
+                    android:text="Sign Up"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <View-->
+<!--                        android:id="@+id/view2"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="2dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:background="#050505" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView7"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="  Or  " />-->
+
+<!--                    <View-->
+<!--                        android:id="@+id/view3"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="2dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="#050505" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="0dp"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:background="@drawable/facebook"-->
+<!--                        android:layout_marginRight="10dp"/>-->
+
+<!--                   <ImageView-->
+<!--                       android:layout_width="50dp"-->
+<!--                       android:layout_height="50dp"-->
+<!--                       android:layout_marginLeft="10dp"-->
+<!--                       android:background="@drawable/googleplus"-->
+<!--                       />-->
+<!--                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:gravity="center"
+                        android:text="Already have an account?"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txt_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center_horizontal"
+                        android:text="Log In"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:background="?android:attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
