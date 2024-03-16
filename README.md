@@ -60,7 +60,7 @@ anytime
 ## Tools and Technologies ##
 
 - Android Studio 3.3+
-- Tensor Lite
+- Tensorflow Lite
 - Youtube Player
 - Firebase
 
